@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/item_Exams_user"
+            android:title="Exam"
+            android:icon="@drawable/icon_exam"
+            />
+        <item
+            android:id="@+id/item_exam_pessed"
+            android:title="Exams  Passed "
+            android:icon="@drawable/pass"
+            />
+        <item
+            android:id="@+id/item_sign_out_user"
+            android:title="Sing Out"
+            android:icon="@drawable/icon_sign_out"
+            />
+    </group>
+</menu>

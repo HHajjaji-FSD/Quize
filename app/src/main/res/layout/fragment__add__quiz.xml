@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Fragments.Fragment_Add_Quiz">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:layout_marginTop="10dp">
+
+        <EditText
+            android:id="@+id/edit_text_question"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="30sp"
+            android:textColor="@color/purple_500"
+            android:hint="Enter Question"
+            android:inputType="text"
+            android:fontFamily="sans-serif"
+            />
+
+        <EditText
+            android:id="@+id/edit_text_answer"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="30sp"
+            android:textColor="@color/purple_500"
+            android:hint="Enter Answer"
+            android:inputType="text"
+            android:fontFamily="sans-serif"
+            />
+
+        <EditText
+            android:id="@+id/edit_text_wrng_answer_1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="30sp"
+            android:textColor="@color/purple_500"
+            android:hint="Enter Wrong Answer A"
+            android:inputType="text"
+            android:fontFamily="sans-serif"
+            />
+
+        <EditText
+            android:id="@+id/edit_text_wrng_answer_2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="30sp"
+            android:textColor="@color/purple_500"
+            android:hint="Enter Wrong Answer B"
+            android:inputType="text"
+            android:fontFamily="sans-serif"
+            />
+
+        <EditText
+            android:id="@+id/edit_text_note_question"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="30sp"
+            android:textColor="@color/purple_500"
+            android:hint="Enter Note Question"
+            android:inputType="number"
+            android:fontFamily="sans-serif"
+            />
+        <Button
+            android:id="@+id/btn_add_question"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Add"
+            android:textSize="20sp"
+            android:layout_marginTop="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginLeft="10dp"
+            android:backgroundTint="@color/teal_700"
+            />
+        <Button
+            android:id="@+id/btn_cancel_question"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Cancel"
+            android:textSize="20sp"
+            android:layout_marginTop="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginLeft="10dp"
+            android:backgroundTint="@android:color/holo_red_light"
+            />
+    </LinearLayout>
+
+</FrameLayout>

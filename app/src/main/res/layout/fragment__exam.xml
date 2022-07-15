@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Fragments.Fragment_Exam.Fragment_Exam">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <Button
+                android:id="@+id/btn_back_user"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:drawableLeft="@drawable/back"
+                android:textSize="20sp"
+                android:layout_gravity="end"
+                android:layout_marginRight="10dp"
+                android:layout_weight="1"
+                android:backgroundTint="@color/white"
+                />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            >
+            <TextView
+                android:id="@+id/text_view_title_category_user"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Title"
+                android:textSize="40sp"
+                android:gravity="center"
+                android:textStyle="bold"
+                android:textColor="#B71C1C"
+                />
+            <TextView
+                android:id="@+id/text_view_nbr_question"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="1/5"
+                android:textSize="20sp"
+                android:gravity="center"
+                android:textStyle="bold"
+                android:textColor="#004D40"
+                />
+
+
+            <TextView
+                android:id="@+id/text_view_question"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Cuestion"
+                android:textSize="30sp"
+                android:gravity="start"
+                android:paddingLeft="10dp"
+                android:textStyle="bold"
+                android:textColor="#01579B"
+                android:paddingRight="10dp"
+                />
+                <RadioGroup
+                    android:id="@+id/radio_group"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:paddingLeft="20dp"
+                    android:paddingRight="20dp"
+                    >
+                    <RadioButton
+                        android:id="@+id/radio_1"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Answer 1"
+                        android:textColor="#E65100"
+                        android:textStyle="bold|italic"
+                        android:textSize="20sp"
+                        />
+                    <RadioButton
+                        android:id="@+id/radio_2"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Answer 2"
+                        android:textColor="#E65100"
+                        android:textStyle="bold|italic"
+                        android:textSize="20sp"
+                        />
+                    <RadioButton
+                        android:id="@+id/radio_3"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Answer 3"
+                        android:textColor="#E65100"
+                        android:textStyle="bold|italic"
+                        android:textSize="20sp"
+                        />
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal">
+                        <Button
+                            android:id="@+id/btn_previous"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:textSize="12sp"
+                            android:text="Previous"
+                            android:layout_gravity="end"
+                            android:layout_marginRight="10dp"
+                            android:layout_weight="1"
+                            android:textStyle="bold"
+                            />
+                        <Button
+                            android:id="@+id/btn_finish"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:textSize="15sp"
+                            android:text="finish"
+                            android:layout_gravity="center"
+                            android:layout_marginRight="10dp"
+                            android:layout_weight="1"
+                            android:layout_marginTop="40dp"
+                            android:layout_marginBottom="20dp"
+
+                            />
+                        <Button
+                            android:id="@+id/btn_Next"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:textSize="15sp"
+                            android:text="Next"
+                            android:layout_gravity="end"
+                            android:layout_marginRight="10dp"
+                            android:layout_weight="1"
+                            />
+
+                    </LinearLayout>
+
+                </RadioGroup>
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+</FrameLayout>

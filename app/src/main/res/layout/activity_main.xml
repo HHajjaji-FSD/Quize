@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/txt_log_in"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="LOG IN"
+        android:textColor="@color/purple_500"
+        android:textSize="50sp"
+        android:fontFamily="sans-serif"
+        android:layout_centerHorizontal="true"
+        />
+    <LinearLayout
+        android:id="@+id/linear_layout_login"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/txt_log_in"
+        android:orientation="vertical"
+        android:layout_marginTop="10dp"
+        >
+        <EditText
+            android:id="@+id/edit_text_email"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="30sp"
+            android:textColor="@color/purple_500"
+            android:hint="Enter Email"
+            android:inputType="textEmailAddress"
+            android:fontFamily="sans-serif"
+            />
+        <EditText
+            android:id="@+id/edit_text_password"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="30sp"
+            android:textColor="@color/purple_500"
+            android:hint="Enter Password"
+            android:layout_marginTop="10dp"
+            android:inputType="textPassword"
+            android:fontFamily="sans-serif"
+            />
+
+        <CheckBox
+            android:id="@+id/check_show_password"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Shwo Password"
+            android:fontFamily="sans-serif"
+            android:textColor="@color/purple_500"
+            android:textSize="20sp"
+            />
+    </LinearLayout>
+    <Button
+        android:id="@+id/btn_log_in"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/linear_layout_login"
+        android:text="Log IN"
+        android:textSize="30sp"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginLeft="10dp"
+        />
+    <Button
+        android:id="@+id/btn_Exit_app"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Exit"
+        android:textSize="25sp"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="60dp"
+        android:layout_marginLeft="60dp"
+        android:layout_below="@id/btn_log_in"
+        android:backgroundTint="@android:color/holo_red_light"
+        />
+
+</RelativeLayout>
